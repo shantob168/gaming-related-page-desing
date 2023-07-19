@@ -206,7 +206,7 @@ main{
   display: flex;
   justify-content: center;
   gap: 20px;
-  padding-left: 100px;
+  padding-left: 20px;
 }
 .box3{
 
@@ -219,16 +219,48 @@ main{
     cursor: pointer;
  
 }
+.box3-title > p{
+  color: #534C64;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px; 
+}
  .bo3-icon-container{
     align-items: center;
     cursor: pointer; 
+    
 }
 .box3-icon-container , .play-button{
   margin-left: 10px;
  color: #0B0223;
+ padding-left: 5px;
 }
 .box3-icon-container, p{
   color: #FFF;
+}
+.box1 > p{
+  color: #534C64;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px; 
+}
+.box2 > p{
+  color: #534C64;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px; 
+}
+.box3 > p{
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px; 
+}
+.box4 > p{
+  color: #534C64;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px; 
 }
 /* section box end */
 /* section downlode contianer start */
@@ -296,9 +328,13 @@ left: 200px;
     margin-bottom: 30px;
     
   }
-  .First-fice-logo ,.first-logo:hover {
+  .first-logo:hover {
     border: 1px solid red;
     border-radius: 45px;
+    padding: 0 5px;
+  }
+  .logo-title:hover{
+    color: #8758F1;
   }
   .first-logo{
     display: flex;
