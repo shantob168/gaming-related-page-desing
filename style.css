@@ -7,7 +7,7 @@ font-family: 'Work Sans', sans-serif;
 }
 *{
   margin: 0;
-  padding: 0;
+  
 }
 /* nav related style start */
 nav{
@@ -23,7 +23,7 @@ nav{
   align-items: center;
 }
 .nav-contant img{
-  height: 50%;
+  height: 100%;
  
 }
 nav > ul{
@@ -62,6 +62,7 @@ nav li a{
   align-items: center;
 }
 /* nav related style end */
+
 /* header related style */
 .goat-container{
   margin-top: 5px;
@@ -174,7 +175,7 @@ padding-bottom: 24px;
 main{
   margin-top: 200px;
 }
-/* header related style closexd */
+/* header related style closed */
 
 /* online game section start */
 .online-game{
@@ -263,6 +264,7 @@ main{
   line-height: 30px; 
 }
 /* section box end */
+
 /* section downlode contianer start */
 .downlode-contaiaenr{
   /* padding: 50px 240px; */
@@ -312,6 +314,7 @@ left: 200px;
   bottom: 140px;
 }
   /* section downlode contianer end */
+
   /* section gamer logo start */
   .gamer-logo{
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
@@ -354,7 +357,7 @@ left: 200px;
     gap: 57px;
    
   }
-   /* section gamer logo start */
+   /*footer section gamer logo start */
    .nav1{
     background: #0B0223;
     display: flex ;
@@ -396,6 +399,7 @@ left: 200px;
     gap: 40px;
     padding-top: 50px;
     padding-bottom: 70px;
+    cursor: pointer;
     
   }
   .privacy-list{
@@ -408,3 +412,4 @@ left: 200px;
     text-align: center;
    padding-bottom: 130px;
   }
+  /* Fotoer section gamer end */
